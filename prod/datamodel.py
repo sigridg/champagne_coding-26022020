@@ -56,11 +56,11 @@ class datamodel():
                 'default': 8,
                 'seq': 9,
                 'v': Coerce( int )},
-            'sqft_above': {
-                'desc': 'The square footage of the interior housing space that is above ground level', 
-                'default': 2000,
-                'seq': 10,
-                'v': Coerce( int )},
+            #'sqft_above': {
+              #  'desc': 'The square footage of the interior housing space that is above ground level', 
+               # 'default': 2000,
+              #  'seq': 10,
+              #  'v': Coerce( int )},
             'sqft_basement': {
                 'desc': 'The square footage of the interior housing space that is below ground level', 
                 'default': 0,
